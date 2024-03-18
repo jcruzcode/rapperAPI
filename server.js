@@ -74,6 +74,7 @@ app.get('/api/:name', (request, response) => {
 })
 
 // Listen for requests on PORT
+// process.env.PORT will use port provided by environment
 app.listen(process.env.PORT || PORT, () => {
     console.log(`Server running on port ${PORT}`)
 })
