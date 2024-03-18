@@ -1,6 +1,6 @@
 const express = require('express') // Enable access to Express
 const app = express() // Use Express with app
-const cors = require('cors')
+const cors = require('cors') // Enable cross-origin resource sharing
 const PORT = 8000 // Port number for server
 
 app.use(cors())
