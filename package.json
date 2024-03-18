@@ -2,7 +2,7 @@
   "name": "express-api",
   "version": "1.0.0",
   "description": "Make a simple api",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
